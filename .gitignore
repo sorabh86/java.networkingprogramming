@@ -1,0 +1,9 @@
+*
+!.gitignore
+!README.md
+!Thread/
+!Thread/*
+!Thread/**/*
+Thread/build
+Thread/nb
+Thread/dist/
