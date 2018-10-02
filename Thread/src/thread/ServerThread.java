@@ -5,6 +5,9 @@
  */
 package thread;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author Sorabh86 <ssorabh.ssharma@gmail.com>
@@ -17,12 +20,17 @@ public class ServerThread extends Thread {
 
     @Override
     public void run() {
-        int clientNumber = 1;
-        while(clientNumber != 100) {
-            System.out.println(this.getName()+" sent data to client : "+clientNumber);
-            clientNumber++;
+
+        try {
+            int clientNumber = 1;
+            while (clientNumber != 100) {
+                System.out.println(this.getName() + " sent data to client : " + clientNumber);
+                Thread.sleep(1000);
+                clientNumber++;
+            }
+        } catch (InterruptedException ex) {
+            Logger.getLogger(ServerThread.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
-    
+
 }
