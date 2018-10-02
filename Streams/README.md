@@ -15,14 +15,15 @@ There are two kinds of streams :
         * ByteArrayInputStream
         * FilterInputStream
             * BufferedInputStream
-            * DataInputStream
+            * DataInputStream : You can read Java Primitives from this stream
         * ObjectInputStream
     * OutputStream
         * FileOutputStream
         * ByteArrayOutputStream
         * FilterOutputStream
             * BufferedOutputStream
-            * DataOutputStream
+            * DataOutputStream : You can write Java Primitives form this stream
         * ObjectOutputStream
 
-
+#### Java File Class
+It just give you information about file, like whatever exists, it has couple of things like links, the path, the parent, etc. File class doesn't actually represent a file, it represents a path.
