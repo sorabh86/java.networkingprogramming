@@ -16,7 +16,7 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        ServerThread thread = new ServerThread();
+        ServerThread thread = new ServerThread("Server1");
         thread.start();
     }
     

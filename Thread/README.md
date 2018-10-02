@@ -8,6 +8,11 @@ Java is a multi-threaded application that allows multiple threads execution at a
 An http server or web server, a brower or http client sends requests to an http server which then sends responses back to the client. Without multithreading there is open on signle connection that means it's not possible to connect another client at the same time to communicate with server.    
 The basic idea behind multi threading is whenever server gets a connection request from client the server creates a separate independent thread for each client request, that means for each client there is a separate client thread in server, so the client can communicate independently
 
+## Difference between start & run method
+
+1. When program calls start method the new tread is created and code inside the run method is executed in new tread, while if you call run method directly, no new thread is created and code inside run will execute on current thread.
+2. You can not call start method twice on thread object, once started, second call of start will throw IlegalStateException, while you can call run method twice.
+
 -----
 SKYPE : ssorabh.ssharma    
 email : ssorabh.ssharma@hotmail.com    
