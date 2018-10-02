@@ -1,9 +1,17 @@
 *
 !.gitignore
 !README.md
+
 !Thread/
 !Thread/*
 !Thread/**/*
 Thread/build
 Thread/nb
 Thread/dist/
+
+!Streams/
+!Streams/*
+!Streams/**/*
+Streams/build
+Streams/nb
+Streams/dist/
