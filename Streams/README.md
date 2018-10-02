@@ -8,6 +8,7 @@ There are two kinds of streams :
 * InputStream : The InputStream is used to read data from a source, for ex, a program uses an input stream to read data from a source
 * OutputStream : OutputStream is used for writing data to a destination.
 
+#### RelationShips
 * Object
     * InputStream
         * FileInputStream
