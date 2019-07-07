@@ -1,0 +1,2 @@
+# Module webtoolkittexample
+# RPC service class, partial path of RPC policy file

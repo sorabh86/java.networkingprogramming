@@ -19,3 +19,7 @@ Streams/dist/
 !XMLJavaPractice/
 !XMLJavaPractice/*
 !XMLJavaPractice/**/*
+
+!WebToolkittExample/
+!WebToolkittExample/*
+!WebToolkittExample/**/*
