@@ -2,6 +2,10 @@
 !.gitignore
 !README.md
 
+!Basic/
+!Basic/*
+!Basic/**/*
+
 !Thread/
 !Thread/*
 !Thread/**/*
