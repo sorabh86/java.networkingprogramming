@@ -1,3 +1,4 @@
+[< back](../README.md)
 # Thread
 
 A thread is a single sequential flow of control within a program. All basic programs are written in a sequential programs, that starts, run a sequences of logic, and then terminate. a thread itself is not a program, it cannot run on its own but runs within a program. We are frequently confronted with situations in which an application is forced to wait for some condition i.e. a multimedia player has to wait for the drive to spin up, a network application has to wait for data to arrive or it cannot process client requests when reading from a database.
