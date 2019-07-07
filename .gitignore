@@ -15,3 +15,7 @@ Thread/dist/
 Streams/build
 Streams/nb
 Streams/dist/
+
+!XMLJavaPractice/
+!XMLJavaPractice/*
+!XMLJavaPractice/**/*
