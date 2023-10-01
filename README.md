@@ -6,6 +6,9 @@ This repository is practise session for understanding to network programming, TC
 * [Thread](Thread/README.md)
 * [WAR](warfile-cmd.md)
 
+## IOStream Api
+![ALT="IO Image"](./assets/javaio-diagram.png)
+
 -----
 SKYPE : ssorabh.ssharma    
 email : ssorabh.ssharma@hotmail.com    

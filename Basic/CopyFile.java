@@ -5,10 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-
-
 public class CopyFile {
-
 	public static void main(String[] args) {
 		File f1 = new File("source.txt");
 		File f2 = new File("target.txt");
