@@ -7,7 +7,8 @@ This repository is practise session for understanding to network programming, TC
 * [WAR](warfile-cmd.md)
 
 ## IOStream Api
-<img src="assets/javaio-diagram.png" width="100%" />
+<img src="/java.networkprograming/assets/javaio-diagram.png" width="100%" />
+![diagram](java.networkprograming/assets/javaio-diagram.png)
 
 -----
 SKYPE : ssorabh.ssharma    
