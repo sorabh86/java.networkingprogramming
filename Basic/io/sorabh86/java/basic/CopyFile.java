@@ -1,3 +1,5 @@
+package io.sorabh86.java.basic;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -5,10 +7,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+
 public class CopyFile {
 	public static void main(String[] args) {
-		File f1 = new File("source.txt");
-		File f2 = new File("target.txt");
+		File f1 = new File("assets/basic/source.txt");
+		File f2 = new File("assets/basic/target.txt");
 		
 		try {
 			InputStream in = new FileInputStream(f1);

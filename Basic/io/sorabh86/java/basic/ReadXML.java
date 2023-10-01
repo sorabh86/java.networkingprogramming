@@ -1,3 +1,5 @@
+package io.sorabh86.java.basic;
+
 import java.io.IOException;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -16,7 +18,7 @@ public class ReadXML {
 		
 		try {
 			DocumentBuilder builder = factory.newDocumentBuilder();
-			Document doc = builder.parse("xml/scenario.xml");
+			Document doc = builder.parse("assets/xml/scenario.xml");
 			
 			NodeList list = doc.getElementsByTagName("source");
 			
