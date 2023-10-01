@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package datastream;
+package io.sorabh86.java.streams;
 
 import java.io.*;
 /**
  *
  * @author Sorabh86 <ssorabh.ssharma@gmail.com>
  */
-public class Main {
-    
+public class DataStreamDemo {
+
     public static void main(String[] args) {
         
         File file = new File("example3.txt");
@@ -27,7 +27,7 @@ public class Main {
                     System.out.println("File cannot be created");
                 }
             } catch (Exception ex) {
-                System.out.println(ex.toString());
+                System.out.println(ex);
             }
         }
         
@@ -50,7 +50,7 @@ public class Main {
             out.close();
             in.close();
         } catch(Exception e) {
-            System.out.println(e.toString());
+            System.out.println(e);
         }
     }
 }

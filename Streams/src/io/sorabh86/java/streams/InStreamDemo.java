@@ -2,14 +2,14 @@
  * FileInputstream
  * It is a subclass of InputStream
  */
-package instream;
+package io.sorabh86.java.streams;
 
 import java.io.*;
 /**
  *
  * @author Sorabh86 <ssorabh.ssharma@gmail.com>
  */
-public class Main {
+public class InStreamDemo {
 
     /**
      * @param args the command line arguments
@@ -26,7 +26,7 @@ public class Main {
             
             inputStream.close();
         } catch (Exception ex) { 
-            System.out.println(ex.toString());
+            System.out.println(ex);
         }
     }
     

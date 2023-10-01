@@ -25,7 +25,7 @@ public class Main {
             
             fileOutput.close();
         } catch (Exception ex) { 
-            System.out.println(ex.toString());
+            System.out.println(ex);
         }
     }
 }
